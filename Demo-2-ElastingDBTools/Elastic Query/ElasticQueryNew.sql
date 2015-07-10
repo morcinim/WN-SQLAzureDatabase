@@ -1,3 +1,6 @@
+https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-query-getting-started/
+
+-- However here we use a
 -- Create a db master key if one does not already exist, using your own password.
 CREATE MASTER KEY ENCRYPTION BY PASSWORD='RedW1ne!';
 
@@ -18,12 +21,19 @@ DATABASE_NAME='ShardMgtDB',
 CREDENTIAL = cred,
 SHARD_MAP_NAME='ElasticScaleWithEF'
 );
-select * from sys.external_data_sources;
--- The Shard Map Name
+
+-- The Shard Map Name above can be found in
 -- SELECT * FROM __ShardManagement.ShardMapsGlobal
 
--- DROP EXTERNAL TABLE [dbo].[AllBlogs]
-CREATE EXTERNAL TABLE [dbo].[AllBlogs](
+select * from sys.external_data_sources;
+
+
+
+
+-- DROP EXTERNAL TABLE [dbo].[Blogs]
+-- Note that the external table name must match the name of table in the shards
+-- Note we use ROUND_ROBIN to send query to all shards as we 
+CREATE EXTERNAL TABLE [dbo].[Blogs](
 	[BlogId] [int]  NOT NULL,
 	[Name] [nvarchar](max) NULL,
 	[Url] [nvarchar](max) NULL
@@ -31,10 +41,11 @@ CREATE EXTERNAL TABLE [dbo].[AllBlogs](
 WITH
 (
 DATA_SOURCE = AllBlogsDBs,
-DISTRIBUTION=SHARDED([CustomerId])
+DISTRIBUTION=ROUND_ROBIN
 );
 
 select * from sys.external_tables;
 
--- RUN Queries
-select * from  [dbo].[AllBlogs] order by Url
+-- RUN Queries (Note more complex query like orderBy BlogId times out)
+select * from  [dbo].[Blogs]
+select * from  [dbo].[Blogs] order by BlogId

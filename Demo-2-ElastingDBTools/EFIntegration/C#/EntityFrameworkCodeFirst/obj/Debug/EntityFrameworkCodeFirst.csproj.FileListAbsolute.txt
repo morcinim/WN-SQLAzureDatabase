@@ -40,3 +40,24 @@ C:\Azure\SQL Database\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCod
 C:\Azure\SQL Database\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.AddUser.resources
 C:\Azure\SQL Database\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.ChangeDisplayName.resources
 C:\Azure\SQL Database\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EntityFrameworkCodeFirst.csproj.GenerateResource.Cache
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFrameworkCodeFirst.exe.config
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EntityFrameworkCodeFirst.exe
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EntityFrameworkCodeFirst.pdb
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFrameworkCodeFirst.exe
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFrameworkCodeFirst.pdb
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.dll
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.dll
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.dll
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Azure.SqlDatabase.ElasticScale.Client.xml
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.xml
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\bin\Debug\Microsoft.Practices.EnterpriseLibrary.TransientFaultHandling.Data.xml
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EntityFrameworkCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.InitialCreate.resources
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.AddUrl.resources
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.AddUser.resources
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EFCodeFirstElasticScale.Migrations.ChangeDisplayName.resources
+C:\Users\micham\Documents\GitHub\WN-SQLAzureDatabase\Demo-2-ElastingDBTools\EFIntegration\C#\EntityFrameworkCodeFirst\obj\Debug\EntityFrameworkCodeFirst.csproj.GenerateResource.Cache
