@@ -10,7 +10,7 @@ function Scale-Database {
     )
     $server = Get-AzureSqlDatabaseServer -ServerName $sqlserverName
 
-    $servercredential = new-object System.Management.Automation.PSCredential("morcinim", ("RedW1ne!"  | ConvertTo-SecureString -asPlainText -Force))
+    $servercredential = new-object System.Management.Automation.PSCredential("morcinim", ("[your password]"  | ConvertTo-SecureString -asPlainText -Force))
     $ctx = $server | New-AzureSqlDatabaseServerContext -Credential $serverCredential
 
     #find server objective to scale to
