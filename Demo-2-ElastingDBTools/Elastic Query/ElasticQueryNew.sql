@@ -1,11 +1,17 @@
-https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-query-getting-started/
+-- This script is working with EF integration with Elastic Database tools
+-- https://code.msdn.microsoft.com/Elastic-Scale-with-Azure-bae904ba?SRC=VSIDE
+-- The sharding in this case creates a separate database per tenant rather than sharding list map
+-- described in
+-- https://azure.microsoft.com/en-us/documentation/articles/sql-database-elastic-query-getting-started/
 
--- However here we use a
+
 -- Create a db master key if one does not already exist, using your own password.
 CREATE MASTER KEY ENCRYPTION BY PASSWORD='RedW1ne!';
 
 -- Create a database credential
 -- Note – this syntax is temporary and will be changed in the next release.
+-- Note - the identity an secret must be good for the shards and the shard management db
+
 CREATE CREDENTIAL cred ON DATABASE WITH IDENTITY = 'morcinim', SECRET='RedW1ne!';
 -- For high security, drop the credential when it is no longer in use. 
 -- Note, this syntax is temporary and will be changed in the next release.
